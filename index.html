@@ -3,14 +3,52 @@
 
   <head>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    
     <link rel="stylesheet" href="main.css">
-    
+	<!--<script language="JavaScript"> //Got from webmonkey.com because I'm lazy // Not using anymore I guess
+		//http://www.webmonkey.com/2010/02/make_a_javascript_slideshow/
+		var interval = 3000;
+		var random_display = 0;
+		var imageDir = "my_images/"
+		
+		var imageNum = 0;
+		imageArray = new Array();
+		imageArray[imageNum++] = new imageItem(imageDir+"01.jpg");
+		
+		var totalImages = imageArray.length;
+		
+		function imageItem(image_location) {
+			this.image_item = new Image();
+			this.image_item.src = image_location;
+		}
+		
+		function get_ImageItemLocation(imageObj){
+			return(imageObj.image_item.src);
+		}
+		
+		function randNum(x,y){
+			var range = y - x + 1;
+			return Math.floor(Math.random() *range) + x;
+		}
+		
+		function getNextImage(){
+			if (random_display){
+				imageNum = randNum(0,totalImages-1);
+			}
+			else{
+				imageNum = (imageNum+1) %totalImages;
+			}
+			var new_image = get_ImageItemLocation(imageArray[imageNum]);
+			return(new_image);
+		}
+		
+		//Can add previous button and etc.
+		
+	</script>
+    -->
   </head>
 
-  <body>
+  <body onLoad="switchImage('slideImg')">
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
@@ -27,9 +65,21 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h1>Welcome to Panda</h1>
+        <img class="first" src="my_images/image-1.jpg" alt="">
+        <img src="my_images/image-2.jpg" alt="">
+        <img src="my_images/image-3.jpg" alt="">
+        <img src="my_images/image-4.png" alt="">
+        <img src="my_images/image-5.jpg" alt="">
+        <img src="my_images/image-6.png" alt="">
+        <img src="my_images/image-1.jpg" alt="">
+        <img src="my_images/image-2.jpg" alt="">
+        <img src="my_images/image-3.jpg" alt="">
+        <img src="my_images/image-4.png" alt="">
+		<!--
+		<h1>Welcome to Panda</h1>
         <p>Koko Approved</p>
         <a href="#">Join us</a>
+		-->
       </div>
     </div> 
 
