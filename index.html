@@ -61,7 +61,7 @@
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
-			<a name = "top"></a>
+			<p id = "top"></p>
 			<li><a href="index.html">Panda</a></li>
 			<li><a href="#">Browse</a></li>
         </ul>
@@ -98,7 +98,7 @@
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-12">
-				<a href="#bottom"><img src="my_images/down.png" alt="down" height="50" width="50" align="right"></a>
+				<a data-scroll href="#bottom"><img src="my_images/down.png" alt="down" height="50" width="50" align="right"></a>
 				<h3>Mabinogi</h3>
 				<p>Join one of the largest guilds on the Mari Server!</p>
 				<p><a href="mabinogi.html">Mabinogi Infomation and Events</a></p>
@@ -109,7 +109,7 @@
 
 	<div class="jumbotron2">
 		<div class="container">
-        <a name="bottom"></a>
+        <p id="bottom"></p>
 		<h1>Not just one game...</h1>
         <p>I just don't have enough screenshots yet</p>
 		
@@ -133,12 +133,25 @@
 					<h3>Terraria</h3>
 					<p>Filler Filler Filler</p>
 					<p><a href="#">Terraria Infomation and Events</a></p>
-					 <a href="#top"><img src="my_images/up.png" alt="up" height="50" width="50" align="right"></a>
+					 <a data-scroll href="#top"><img src="my_images/up.png" alt="up" height="50" width="50" align="right"></a>
 				</div>
 				
 			</div>
 			
 		</div>
 	</div>
+	
+	<script src='dist/js/smooth-scroll.js'></script>
+		<script>
+			smoothScroll.init({
+				speed: 1000,
+				easing: 'easeInOutCubic',
+				offset: 0,
+				updateURL: true,
+				callbackBefore: function ( toggle, anchor ) {},
+				callbackAfter: function ( toggle, anchor ) {}
+			});
+		</script>
+	
   </body>
 </html>

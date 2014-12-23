@@ -41,7 +41,7 @@ body {
 
 
 .jumbotron2 {
-  background-image:url('my_images/image-6.jpg');
+  background-image:url('my_images/terrariaimage.png');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,18 +51,19 @@ body {
 .jumbotron2 .container {
   position: relative;
   top:350px;
+  text-align:center;
 }
 
 .jumbotron2 h1 {
-  color: #000;
+  color: #FFF;
   font-size: 48px;  
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .jumbotron2 p {
   font-size: 20px;
-  color: #000;
+  color: #FFF;
   font-weight:bold;
 }
 /*
