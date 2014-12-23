@@ -11,13 +11,13 @@
 }
 
 .jumbotron {
-  /*background-image:url('http://i.imgur.com/bd1Rzfa.png');*/
+  background-image:url('my_images/image-3.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
-
+/*
 .first {
     -webkit-animation: bannermove 30s linear infinite;
        -moz-animation: bannermove 30s linear infinite;
@@ -102,7 +102,7 @@
     -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
-
+*/
 .jumbotron .container {
   position: relative;
   top:100px;
