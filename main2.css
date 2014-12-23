@@ -1,5 +1,6 @@
 body {
 	font-family: 'Raleway', sans-serif;
+	padding-top:50px
 }
 
 .nav a {
@@ -12,6 +13,15 @@ body {
 
 .nav li {
   display: inline;
+}
+
+header {
+    background: #fff;
+    height: 50px;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+	z-index:10000;
 }
 
 .jumbotron {
