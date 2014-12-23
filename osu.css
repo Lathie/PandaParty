@@ -25,7 +25,7 @@ header {
 }
 
 .jumbotron {
-  background-image:url('my_images/tallimage.jpg');
+  background-image:url('my_images/osu.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,19 +34,20 @@ header {
 
 .jumbotron .container {
   position: relative;
-  top: 350px;
+  top: 320px;
 }
 
 .jumbotron h1 {
-  color: #000;
+  color: #fff;
   font-size: 48px;  
   font-family: 'Raleway', sans-serif;
+  font-weight:bold;
 
 }
 
 .jumbotron p {
   font-size: 20px;
-  color: #000;
+  color: #fff;
 }
 
 .learn-more {
