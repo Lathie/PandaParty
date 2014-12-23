@@ -39,7 +39,7 @@ header {
 
 .jumbotron h1 {
   color: #000;
-  font-size: 48px;  
+  font-size: 36px;  
   font-family: 'Raleway', sans-serif;
 
 }
@@ -47,6 +47,33 @@ header {
 .jumbotron p {
   font-size: 20px;
   color: #000;
+}
+
+
+.jumbotron2 {
+  background-image:url('my_images/image-6.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.jumbotron2 .container {
+  position: relative;
+  top:350px;
+}
+
+.jumbotron2 h1 {
+  color: #000;
+  font-size: 48px;  
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron2 p {
+  font-size: 20px;
+  color: #000;
+  font-weight:bold;
 }
 
 .learn-more {
