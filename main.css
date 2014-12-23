@@ -169,4 +169,28 @@ body {
   color: #00b0ff;
 }
 
+.jumbotron3 {
+  background-image:url('my_images/image-6.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.jumbotron3 .container {
+  position: relative;
+  top:360px;
+}
+
+.jumbotron3 h1 {
+  color: #000;
+  font-size: 48px;  
+  font-family: 'Raleway', sans-serif;
+  /*font-weight: bold;*/
+}
+
+.jumbotron3 p {
+  font-size: 20px;
+  color: #000;
+}
 
