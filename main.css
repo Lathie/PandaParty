@@ -1,5 +1,15 @@
 body {
 	font-family: 'Raleway', sans-serif;
+	
+}
+
+header {
+    background: #fff;
+    height: 50px;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+	z-index:10000;
 }
 
 .nav a {
@@ -16,7 +26,7 @@ body {
 
 .jumbotron {
   background-image:url('my_images/image.jpg');
-  height: 500px;
+  height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
 
