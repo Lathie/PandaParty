@@ -93,7 +93,7 @@ header {
 }
 
 .jumbotron3 {
-  background-image:url('my_images/image-6.jpg');
+  background-image:url('my_images/gw1.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,11 +109,12 @@ header {
   color: #000;
   font-size: 48px;  
   font-family: 'Raleway', sans-serif;
-  /*font-weight: bold;*/
+  font-weight: bold;
 }
 
 .jumbotron3 p {
   font-size: 20px;
   color: #000;
+  font-weight:bold;
 }
 
